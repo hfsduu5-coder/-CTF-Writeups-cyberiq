@@ -31,6 +31,10 @@ Start from [templates/WRITEUP-TEMPLATE.md](templates/WRITEUP-TEMPLATE.md).
 ## Published Material
 See [WRITEUPS.md](WRITEUPS.md) for the verified index. The repository distinguishes complete real challenge writeups from practice notes so missing historical details are never invented.
 
+## CyberIQ Standard
+
+This repository uses an evidence-driven methodology: **Observed → Hypothesis → Validation → Root Cause → Defensive Takeaway**. See [docs/METHODOLOGY.md](docs/METHODOLOGY.md), the [quality gate](templates/QUALITY-CHECKLIST.md), and the [skills matrix](SKILLS.md).
+
 ## Repository Principles
 
 **Authorization first • Explain the reasoning • Preserve evidence • Avoid secrets • Redact live credentials/flags when appropriate • Teach, don't just paste commands**
