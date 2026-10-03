@@ -2,12 +2,36 @@
   "project": "CyberIQ CTF Writeups",
   "updated": "2026-10-03",
   "tracks": {
-    "Web": {"complete": 1, "partial": 1, "practice": 0},
-    "Cryptography": {"complete": 0, "partial": 0, "practice": 1},
-    "Forensics": {"complete": 0, "partial": 0, "practice": 1},
-    "OSINT": {"complete": 0, "partial": 0, "practice": 0},
-    "Reverse Engineering": {"complete": 0, "partial": 0, "practice": 0},
-    "Misc": {"complete": 0, "partial": 0, "practice": 0}
+    "Web": {
+      "complete": 1,
+      "partial": 2,
+      "practice": 0
+    },
+    "Cryptography": {
+      "complete": 0,
+      "partial": 0,
+      "practice": 1
+    },
+    "Forensics": {
+      "complete": 0,
+      "partial": 0,
+      "practice": 1
+    },
+    "OSINT": {
+      "complete": 0,
+      "partial": 0,
+      "practice": 0
+    },
+    "Reverse Engineering": {
+      "complete": 0,
+      "partial": 0,
+      "practice": 0
+    },
+    "Misc": {
+      "complete": 0,
+      "partial": 0,
+      "practice": 0
+    }
   },
   "documented_skills": [
     "Information disclosure reasoning",
@@ -16,7 +40,16 @@
     "Metadata inspection",
     "Spectrogram workflow",
     "File carving discipline",
-    "RSA challenge analysis"
+    "RSA challenge analysis",
+    "Negative-finding documentation"
   ],
-  "tools": ["Browser / HTTP client","Python","RsaCtfTool","EXIF inspection","Spectrogram","binwalk","foremost"]
+  "tools": [
+    "Browser / HTTP client",
+    "Python",
+    "RsaCtfTool",
+    "EXIF inspection",
+    "Spectrogram",
+    "binwalk",
+    "foremost"
+  ]
 }
