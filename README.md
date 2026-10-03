@@ -31,6 +31,10 @@ Start from [templates/WRITEUP-TEMPLATE.md](templates/WRITEUP-TEMPLATE.md).
 ## Published Material
 See [WRITEUPS.md](WRITEUPS.md) for the verified index. The repository distinguishes complete real challenge writeups from practice notes so missing historical details are never invented.
 
+## Knowledge Base
+
+The repository now includes a growing [CyberIQ CTF Knowledge Base](knowledge-base/README.md) and an evidence-driven [Tool Map](TOOLS.md). Individual challenges feed reusable concepts instead of remaining isolated flag solutions.
+
 ## CyberIQ Standard
 
 This repository uses an evidence-driven methodology: **Observed → Hypothesis → Validation → Root Cause → Defensive Takeaway**. See [docs/METHODOLOGY.md](docs/METHODOLOGY.md), the [quality gate](templates/QUALITY-CHECKLIST.md), and the [skills matrix](SKILLS.md).
@@ -46,6 +50,7 @@ This repository uses an evidence-driven methodology: **Observed → Hypothesis �
 ├── assets/
 ├── crypto/
 ├── forensics/
+├── knowledge-base/
 ├── misc/
 ├── osint/
 ├── reverse-engineering/
