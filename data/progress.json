@@ -1,0 +1,22 @@
+{
+  "project": "CyberIQ CTF Writeups",
+  "updated": "2026-10-03",
+  "tracks": {
+    "Web": {"complete": 1, "partial": 1, "practice": 0},
+    "Cryptography": {"complete": 0, "partial": 0, "practice": 1},
+    "Forensics": {"complete": 0, "partial": 0, "practice": 1},
+    "OSINT": {"complete": 0, "partial": 0, "practice": 0},
+    "Reverse Engineering": {"complete": 0, "partial": 0, "practice": 0},
+    "Misc": {"complete": 0, "partial": 0, "practice": 0}
+  },
+  "documented_skills": [
+    "Information disclosure reasoning",
+    "Web service fingerprinting",
+    "Evidence preservation",
+    "Metadata inspection",
+    "Spectrogram workflow",
+    "File carving discipline",
+    "RSA challenge analysis"
+  ],
+  "tools": ["Browser / HTTP client","Python","RsaCtfTool","EXIF inspection","Spectrogram","binwalk","foremost"]
+}
