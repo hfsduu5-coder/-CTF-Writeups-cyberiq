@@ -5,6 +5,7 @@
 > **GitHub Pages ready:** root `index.html`, `.nojekyll`, branded `404.html`, and responsive assets are configured for branch deployment.  
 > **Portfolio Website:** [`site/index.html`](site/index.html) • **Analytics:** [`dashboard/index.html`](dashboard/index.html)
 
+**Evidence over hype. Methodology over guesswork.**  
 A structured portfolio of **authorized CTF challenge writeups**, methodology notes, reusable learning patterns, and defensive takeaways.
 
 **مقتدى الصدر جارالله خليف — Muqtada Al-Sadr Jarallah Khalif**  
