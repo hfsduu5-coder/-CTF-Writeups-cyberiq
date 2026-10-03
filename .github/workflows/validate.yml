@@ -18,6 +18,16 @@ jobs:
           python scripts/update_progress.py
           git diff --exit-code data/progress.json
       - name: Validate portfolio files
-        run: test -f site/index.html && test -f site/style.css && test -f dashboard/index.html
+        run: |
+          test -f index.html
+          test -f site/style.css
+          test -f site/app.js
+          test -f dashboard/index.html
+          test -f assets/IMG_20261003_025605_506.PNG
+          test -f cases/metactf-robots/index.html
+          test -f cases/redcastle/index.html
+          test -f cases/deadwood/index.html
+          test -f cases/forensics-artifact/index.html
+          test -f cases/rsa-analysis/index.html
       - name: Validate JSON
         run: python -m json.tool data/progress.json >/dev/null
