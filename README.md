@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/cyberiq-logo.svg" width="420" alt="CyberIQ CTF Writeups"></p>
+<p align="center"><img src="assets/IMG_20261003_025605_506.PNG" width="420" alt="CyberIQ CTF Writeups"></p>
 
 # CyberIQ CTF Writeups
 
