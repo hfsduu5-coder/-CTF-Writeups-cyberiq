@@ -54,7 +54,7 @@ The repository includes a responsive CyberIQ intelligence-style portfolio with s
 
 ## CyberIQ Standard
 
-This repository uses an evidence-driven methodology: **Observed → Hypothesis → Validation → Root Cause → Defensive Takeaway**. See [docs/METHODOLOGY.md](docs/METHODOLOGY.md), the [quality gate](templates/QUALITY-CHECKLIST.md), and the [skills matrix](SKILLS.md).
+This repository uses an evidence-driven methodology: **Observed → Hypothesis → Validation → Root Cause → Defensive Takeaway**. See [docs/METHODOLOGY.md](docs/METHODOLOGY.md), the [case metadata standard](docs/CASE-METADATA-STANDARD.md), the [quality gate](templates/QUALITY-CHECKLIST.md), and the [skills matrix](SKILLS.md).
 
 ## Repository Principles
 
