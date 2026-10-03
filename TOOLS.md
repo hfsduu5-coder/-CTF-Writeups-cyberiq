@@ -21,3 +21,4 @@ Evidence question → smallest suitable tool → preserve output → validate co
 ```
 
 A large command list is not evidence of a strong investigation. Reproducible reasoning is.
+\n## Crosslinks\n- [Knowledge Base](KNOWLEDGE-BASE.md)\n- [Methodology](docs/METHODOLOGY.md)\n- [Writeup Index](WRITEUPS.md)\n- [Skills](SKILLS.md)\n
