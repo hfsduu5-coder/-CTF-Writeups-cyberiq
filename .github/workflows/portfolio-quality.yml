@@ -1,7 +1,5 @@
-name: portfolio-quality
-on:
-  push:
-  pull_request:
+name: Portfolio quality
+on: [push, pull_request]
 permissions:
   contents: read
 jobs:
