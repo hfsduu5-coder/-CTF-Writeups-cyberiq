@@ -48,6 +48,10 @@ python scripts/update_progress.py
 
 The repository now includes a growing [CyberIQ CTF Knowledge Base](knowledge-base/README.md) and an evidence-driven [Tool Map](TOOLS.md). Individual challenges feed reusable concepts instead of remaining isolated flag solutions.
 
+## Portfolio System
+
+The repository includes a responsive CyberIQ intelligence-style portfolio with searchable/filterable case files, an operations timeline, evidence-backed skills matrix, tool arsenal, analytics dashboard, branded case-file pages, and automated repository validation. The interface uses the official CyberIQ logo and remains dependency-free/static for simple GitHub Pages hosting.
+
 ## CyberIQ Standard
 
 This repository uses an evidence-driven methodology: **Observed → Hypothesis → Validation → Root Cause → Defensive Takeaway**. See [docs/METHODOLOGY.md](docs/METHODOLOGY.md), the [quality gate](templates/QUALITY-CHECKLIST.md), and the [skills matrix](SKILLS.md).
@@ -61,6 +65,7 @@ This repository uses an evidence-driven methodology: **Observed → Hypothesis �
 ```text
 .
 ├── assets/
+├── cases/              # cinematic HTML intelligence case files
 ├── crypto/
 ├── dashboard/
 ├── data/
@@ -69,6 +74,7 @@ This repository uses an evidence-driven methodology: **Observed → Hypothesis �
 ├── misc/
 ├── osint/
 ├── reverse-engineering/
+├── site/               # portfolio UI + interaction engine
 ├── templates/
 └── web/
 ```
