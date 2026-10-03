@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CyberIQ CTF Dashboard</title>
+<style>
+:root{--bg:#07080a;--panel:#101216;--line:#351019;--red:#e01839;--text:#f2f3f5;--muted:#9ca3af}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at top,#210910 0,#07080a 38%);color:var(--text);font:15px system-ui,-apple-system,sans-serif}.wrap{max-width:1120px;margin:auto;padding:32px 20px}header{display:flex;align-items:center;gap:18px;margin-bottom:30px}header img{width:90px}h1{margin:0;font-size:clamp(28px,5vw,48px)}h1 span{color:var(--red)}.sub{color:var(--muted);margin-top:6px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}.card{background:#101216e8;border:1px solid var(--line);border-radius:18px;padding:18px;box-shadow:0 16px 45px #0005}.metric{font-size:34px;font-weight:800;color:var(--red)}.label,.muted{color:var(--muted)}h2{margin-top:34px}.track{margin:12px 0}.track-head{display:flex;justify-content:space-between}.bar{height:9px;background:#24262b;border-radius:99px;overflow:hidden;margin-top:7px}.bar i{display:block;height:100%;background:linear-gradient(90deg,#7f1024,#e01839);border-radius:99px}.chips{display:flex;flex-wrap:wrap;gap:8px}.chip{border:1px solid #4b1822;border-radius:999px;padding:7px 10px;background:#130b0e}.legend{display:flex;gap:14px;flex-wrap:wrap;margin:16px 0;color:var(--muted)}footer{margin-top:38px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted)}a{color:#ff526d}</style></head>
+<body><main class="wrap"><header><img src="../assets/cyberiq-logo.svg" alt="CyberIQ"><div><h1>CTF <span>Progress</span> Dashboard</h1><div class="sub">Evidence-backed portfolio analytics • CyberIQ</div></div></header>
+<div id="app"><div class="card">Loading local project data…</div></div>
+<footer>CyberIQ • Developer & Team Leader: Muqtada Al-Sadr Jarallah Khalif<br><span class="muted">Counts reflect documented repository material, not unsupported claims.</span></footer>
+<script>
+fetch("../data/progress.json").then(r=>r.json()).then(d=>{
+ const tracks=Object.entries(d.tracks), total=tracks.reduce((n,[,v])=>n+v.complete+v.partial+v.practice,0), complete=tracks.reduce((n,[,v])=>n+v.complete,0);
+ const max=Math.max(1,...tracks.map(([,v])=>v.complete+v.partial+v.practice));
+ document.querySelector("#app").innerHTML=`
+ <section class="grid"><div class="card"><div class="metric">${total}</div><div class="label">Documented entries</div></div><div class="card"><div class="metric">${complete}</div><div class="label">Complete challenge writeups</div></div><div class="card"><div class="metric">${d.documented_skills.length}</div><div class="label">Evidence-backed skills</div></div><div class="card"><div class="metric">${d.tools.length}</div><div class="label">Documented tools / techniques</div></div></section>
+ <h2>Tracks</h2><section class="card">${tracks.map(([k,v])=>{let n=v.complete+v.partial+v.practice;return `<div class="track"><div class="track-head"><b>${k}</b><span class="muted">${n} entries</span></div><div class="bar"><i style="width:${n/max*100}%"></i></div><small class="muted">Complete ${v.complete} • Partial ${v.partial} • Practice ${v.practice}</small></div>`}).join("")}</section>
+ <h2>Documented Skills</h2><section class="card chips">${d.documented_skills.map(x=>`<span class="chip">${x}</span>`).join("")}</section>
+ <h2>Tools & Techniques</h2><section class="card chips">${d.tools.map(x=>`<span class="chip">${x}</span>`).join("")}</section>
+ <div class="legend">Updated: ${d.updated} • Data source: repository documentation</div>`;
+}).catch(()=>document.querySelector("#app").innerHTML='<div class="card">Open this page through GitHub Pages or a local HTTP server so the dashboard can load its JSON dataset.</div>');
+</script></main></body></html>
