@@ -2,7 +2,7 @@
 
 # CyberIQ CTF Writeups
 
-> **GitHub Pages ready:** root `index.html` + `.nojekyll` are configured for branch deployment.  
+> **GitHub Pages ready:** root `index.html`, `.nojekyll`, branded `404.html`, and responsive assets are configured for branch deployment.  
 > **Portfolio Website:** [`site/index.html`](site/index.html) • **Analytics:** [`dashboard/index.html`](dashboard/index.html)
 
 A structured portfolio of **authorized CTF challenge writeups**, methodology notes, reusable learning patterns, and defensive takeaways.
