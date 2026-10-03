@@ -11,3 +11,8 @@ Expected project URL after Pages is enabled for the default branch/root:
 `https://hfsduu5-coder.github.io/-CTF-Writeups-cyberiq/`
 
 If the endpoint is unavailable, enable GitHub Pages in repository settings (Deploy from a branch, `main`, root) or configure an official Pages deployment workflow. Do not mark deployment complete until the public endpoint is reachable.
+
+
+## Deployment automation
+
+The repository now includes `.github/workflows/pages.yml`, which validates the portfolio, uploads the static repository as a Pages artifact, and deploys it through GitHub's official Pages actions. The workflow also supports manual dispatch. A successful workflow run and reachable public endpoint remain the evidence required to call deployment verified.
