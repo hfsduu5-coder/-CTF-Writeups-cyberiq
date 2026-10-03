@@ -31,6 +31,15 @@ Start from [templates/WRITEUP-TEMPLATE.md](templates/WRITEUP-TEMPLATE.md).
 ## Published Material
 See [WRITEUPS.md](WRITEUPS.md) for the verified index. The repository distinguishes complete real challenge writeups from practice notes so missing historical details are never invented.
 
+## Progress Dashboard
+
+A visual dashboard is available in [`dashboard/index.html`](dashboard/index.html), powered by the evidence-backed [`data/progress.json`](data/progress.json) dataset. Counts represent documented repository material rather than self-reported totals.
+
+Refresh track counts with:
+```bash
+python scripts/update_progress.py
+```
+
 ## Knowledge Base
 
 The repository now includes a growing [CyberIQ CTF Knowledge Base](knowledge-base/README.md) and an evidence-driven [Tool Map](TOOLS.md). Individual challenges feed reusable concepts instead of remaining isolated flag solutions.
@@ -49,6 +58,8 @@ This repository uses an evidence-driven methodology: **Observed → Hypothesis �
 .
 ├── assets/
 ├── crypto/
+├── dashboard/
+├── data/
 ├── forensics/
 ├── knowledge-base/
 ├── misc/
