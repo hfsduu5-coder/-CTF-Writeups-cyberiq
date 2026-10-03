@@ -8,6 +8,13 @@
 - **Authorization:** CTF/lab environment
 - **Objective:** 
 
+## Evidence Confidence
+- **Observed:** 
+- **Derived:** 
+- **Hypothesis:** 
+- **Confirmed:** 
+- **Unknown:** 
+
 ## Initial Observations
 Describe what was supplied and the first useful observations.
 
@@ -25,6 +32,9 @@ Explain how the challenge was solved **inside the authorized CTF/lab environment
 
 ## Flag
 `REDACTED` by default. Publish only when event/platform rules permit it.
+
+## Root Cause / Core Concept
+Explain the underlying security concept rather than only the successful step.
 
 ## Lessons Learned
 What concepts or techniques were reinforced?
