@@ -6,6 +6,7 @@ This index contains only documented CTF/lab work or practice areas with known pr
 |---|---|---|
 | Web | [MetaCTF — Robots.txt Path Discovery](web/metactf-robots-path-discovery.md) | Real challenge |
 | Web | [RedCastle Investigation Record](web/metactf-redcastle-investigation-record.md) | Partial historical record |
+| Web | [Deadwood Credit Union Investigation](web/metactf-deadwood-credit-union-investigation.md) | Partial historical record |
 | Forensics | [Artifact Discovery Practice](forensics/artifact-discovery-practice.md) | Real practice notes |
 | Crypto | [RSA CTF Practice Notes](crypto/rsa-practice-notes.md) | Real practice notes |
 
