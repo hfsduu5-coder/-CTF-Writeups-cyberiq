@@ -12,19 +12,13 @@
 ## Preserved Observations
 During the authorized challenge investigation, the service identified itself as a Python web application using Werkzeug. The application presented a login surface. A challenge clue also directed attention toward the Python service and a known-vulnerability theme.
 
-A separate discovery step exposed a challenge path through `robots.txt`:
-
-```text
-/secret-robot-3099a500f658ef87/
-```
-
-That discovery is documented separately in the MetaCTF robots.txt writeup.
+A separate MetaCTF investigation in this portfolio involved a `robots.txt` path disclosure. That evidence is documented in its own writeup and is intentionally **not attributed to RedCastle** here because the preserved RedCastle record does not prove the two observations belonged to the same challenge instance.
 
 ## Evidence Classification
 - **Observed:** Python/Werkzeug service in the challenge environment.
 - **Observed:** Login surface associated with RedCastle.
 - **Observed:** Challenge clue referenced Python and a known vulnerability.
-- **Observed:** `robots.txt` disclosed a secret-looking challenge path.
+- **Not attributed here:** The separately documented `robots.txt` path disclosure belongs to another preserved investigation record unless future evidence proves otherwise.
 - **Unknown:** The exact vulnerability ultimately intended by the challenge.
 - **Unknown:** The final exploit chain and flag value.
 
