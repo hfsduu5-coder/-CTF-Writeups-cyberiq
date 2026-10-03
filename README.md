@@ -28,6 +28,9 @@ Every writeup should document the challenge context, authorization/scope, object
 
 Start from [templates/WRITEUP-TEMPLATE.md](templates/WRITEUP-TEMPLATE.md).
 
+## Published Material
+See [WRITEUPS.md](WRITEUPS.md) for the verified index. The repository distinguishes complete real challenge writeups from practice notes so missing historical details are never invented.
+
 ## Repository Principles
 
 **Authorization first • Explain the reasoning • Preserve evidence • Avoid secrets • Redact live credentials/flags when appropriate • Teach, don't just paste commands**
