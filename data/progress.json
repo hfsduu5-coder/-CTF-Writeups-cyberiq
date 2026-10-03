@@ -1,36 +1,44 @@
 {
   "project": "CyberIQ CTF Writeups",
   "updated": "2026-10-03",
+  "verified_reference_registry": 120,
+  "deep_dive_case_files": 10,
   "tracks": {
     "Web": {
       "complete": 1,
       "partial": 2,
-      "practice": 0
+      "practice": 0,
+      "verified_reference": 0
     },
     "Cryptography": {
       "complete": 0,
       "partial": 0,
-      "practice": 1
+      "practice": 1,
+      "verified_reference": 10
     },
     "Forensics": {
       "complete": 0,
       "partial": 0,
-      "practice": 1
+      "practice": 1,
+      "verified_reference": 0
     },
     "OSINT": {
       "complete": 0,
       "partial": 0,
-      "practice": 0
+      "practice": 0,
+      "verified_reference": 0
     },
     "Reverse Engineering": {
       "complete": 0,
       "partial": 0,
-      "practice": 0
+      "practice": 0,
+      "verified_reference": 0
     },
     "Misc": {
       "complete": 0,
       "partial": 0,
-      "practice": 0
+      "practice": 0,
+      "verified_reference": 0
     }
   },
   "documented_skills": [
@@ -40,7 +48,10 @@
     "Metadata inspection",
     "Spectrogram workflow",
     "File carving discipline",
-    "RSA challenge analysis",
+    "RSA modular arithmetic",
+    "RSA public/private key reasoning",
+    "AES state representation",
+    "AES round transformations",
     "Negative-finding documentation"
   ],
   "tools": [
