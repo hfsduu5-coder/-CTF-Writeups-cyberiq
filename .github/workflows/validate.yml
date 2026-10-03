@@ -17,5 +17,7 @@ jobs:
         run: |
           python scripts/update_progress.py
           git diff --exit-code data/progress.json
+      - name: Validate portfolio files
+        run: test -f site/index.html && test -f site/style.css && test -f dashboard/index.html
       - name: Validate JSON
         run: python -m json.tool data/progress.json >/dev/null
