@@ -1,1 +1,9 @@
-{"name":"CyberIQ CTF Intelligence Portfolio","short_name":"CyberIQ","description":"Evidence-driven authorized CTF investigations and cybersecurity knowledge.","start_url":"./","display":"standalone","background_color":"#060709","theme_color":"#e01839","icons":[{"src":"assets/IMG_20261003_025605_506.PNG","sizes":"512x512","type":"image/png","purpose":"any maskable"}]}
+{
+  "name": "CyberIQ CTF Intelligence Portfolio",
+  "short_name": "CyberIQ",
+  "description": "Evidence-driven authorized CTF investigations and cybersecurity knowledge.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#060709",
+  "theme_color": "#e01839"
+}
