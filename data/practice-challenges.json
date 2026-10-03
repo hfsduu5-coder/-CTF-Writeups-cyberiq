@@ -1204,5 +1204,11 @@
       "verification": "VERIFIED REFERENCE — official CryptoHack challenge index",
       "solution_status": "Reference only — not claimed personally solved"
     }
-  ]
+  ],
+  "audit": {
+    "date": "2026-10-03",
+    "scope": "Registry policy and official-source mapping reviewed against current CryptoHack challenge indexes.",
+    "result": "Reference-only boundary preserved. Entries remain learning references and are not personal completion claims.",
+    "note": "Official challenge pages are the source of truth; future source changes should trigger a registry refresh."
+  }
 }
